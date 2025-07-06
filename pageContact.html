@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Offbeat Collective</title>
+    <link rel="stylesheet" href="../CSS/tp3.css">
+</head>
+
+<body>
+    <header>
+        <!-- Section Femme et Homme -->
+        <div class="header-content">
+            <a href="pageAchetervetement.html">
+                <p class="inter">Femme</p>
+            </a>
+            <a href="pageAchetervetement.html">
+                <p class="inter">Homme</p>
+            </a>
+            <a href="pageContact.html">
+                <p class="inter">Contact</p>
+            </a>
+            <a href="pageAcceuil.html">
+                <img src="../image/offbeat.png" alt="l'image a une erreur" class="logo-offbeat">
+            </a>
+        </div>
+
+        <!-- Logo Offbeat centré -->
+        <img src="../image/offbeat logo.png" alt="l'image a une erreur" class="logo-barcode">
+
+
+
+        <!-- Barre de recherche -->
+        <div class="bar-recherche">
+            <p>Recherche...</p>
+            <img src="../image/icon_rechercher.png" alt="l'image a une erreur" class="icon-rechercher">
+        </div>
+
+        <!-- Navigation -->
+        <nav class="nav-titre">
+            <a href="" class="button">
+                <img src="../image/seConnecter.jpg" alt="image disparu" class="icon-haut" /> Se connecter
+            </a>
+            <a href="" class="button">
+                <img src="../image/paniier.png" alt="image disparu" class="icon-haut" /> Panier
+            </a>
+        </nav>
+    </header>
+
+    <!-- Icone Email -->
+    <img src="../image/email-logo.jpg" alt="l'image a une erreur" class="icon-courriel">
+
+    <!--bordure pour l'utilisateur pour nous ecrire un message-->
+    <div class="Centrer-border">
+        <div class="border-taille">Nom et Prénom</div>
+        <div class="border-taille">objet</div>
+        <div class="border-taille">Votre adresse courriel</div>
+        <div class="border-Message">MESSAGE
+
+        </div>
+
+        <!--image et googleMaps-->
+        <img src="../image/mapgoogle.png" alt="Image non afficher" class="googleCarte">
+
+        <div class="adresseBdb">
+            <img src="../image/logoMaps.png" alt="image disparu" class="googleIcon" />
+            <p class="address">10555 Ave de Bois-de-Boulogne, Montreal QC H4N 1L4, Canada</p>
+        </div>
+
+        <!--Video -->
+        <div class="video-contact">
+            <video id="video1" width="420">
+                <source src="../Video et Audio/Retail Associate Training.mp4" type="video/mp4">
+            </video><br>
+            <button onclick="faireDemarrer()">Démarrer/Pause</button>
+            <button onclick="faireGrossir()">Grossir</button>
+            <button onclick="faireDiminuer()">Diminuer</button>
+            <button onclick="faireNormal()">Normal</button>
+            <br><br>
+
+
+        </div>
+        <!--Le code afficher dans le powerpoint-->
+        <div>
+            <script>
+                var myVideo = document.getElementById("video1");
+                function faireDemarrer() {
+                    if (myVideo.paused)
+                        myVideo.play();
+                    else
+                        myVideo.pause();
+                }
+                function faireGrossir() {
+                    myVideo.width = 560;
+                }
+                function faireDiminuer() {
+                    myVideo.width = 320;
+                }
+                function faireNormal() {
+                    myVideo.width = 420;
+                }
+            </script>
+        </div>
+
+        <!--Audio-->
+        <p class="audio">
+            <audio controls>
+                <source src="../Video et Audio/Never Waste Money Buying Clothes Online Again.mp3" type="audio/mpeg">
+            </audio>
+        </p>
+        <!--icon ,insta facebook, tiktok-->
+        <div class="images-bas-droite">
+            <a href="https://www.instagram.com/" target="_blank" class="lien-instagram">
+                <img src="../image/insta.png" alt="Description de l'image" class="image">
+            </a>
+
+            <a href="https://www.facebook.com/" target="_blank" class="lien-instagram">
+                <img src="../image/facebook.png" alt="Description de l'image" class="image">
+            </a>
+
+            <a href="https://www.tiktok.com/" target="_blank" class="lien-instagram">
+                <img src="../image/tictok.png" alt="Description de l'image" class="image">
+            </a>
+        </div>
+</body>
+
+</html>

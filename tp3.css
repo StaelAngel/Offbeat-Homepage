@@ -1,0 +1,424 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+   
+}
+
+/* Section qui contient Femme et Homme + logo Offbeat */
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.centrer-H1 {
+    position: relative;
+    top: 90px;
+    right: 10px;
+    text-align: center;
+}
+
+.inter {
+    font-size: 22px;
+    /* Augmente la taille de la police à 24px */
+}
+
+.logo-offbeat {
+    height: auto;
+    /* Ajustez le width de l'image */
+    width: 100px;
+}
+
+/* Logo Offbeat centré */
+.logo-barcode {
+    left: 770px;
+    height: auto;
+    width: 350px;
+    top: 20px;
+    display: block;
+    position: absolute;
+    /* Centre l'image horizontalement */
+}
+
+/* Style des icônes */
+.icon-courriel {
+    position: absolute;
+    top: 150px;
+    left: 1750px;
+    width: 75px;
+    height: auto;
+}
+
+/* Barre de recherche */
+.bar-recherche {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    width: 200px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    position: relative;
+    /* Utiliser position relative pour déplacer la barre */
+    left: 420px;
+    
+}
+
+/* Icône de recherche */
+.icon-rechercher {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+
+.nav-titre {
+    display: flex;
+    gap: 30px;
+    right: 70px;
+    position: relative;
+
+}
+
+
+.button {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.icon-haut {
+    width: 40px;
+  
+    height: auto;
+    margin-right: 10px;
+   
+
+}
+/*icon insta, facebook et tiktok*/
+.images-bas-droite {
+    position: fixed;
+    bottom: 20px;
+    right: 70px;
+    display: flex;
+    gap: 10px;
+  
+}
+
+.image {
+    width: 30px;
+    height: 28px;
+}
+
+
+
+.Centrer-border {
+    margin-top: 100px;
+}
+
+
+
+.border-taille {
+
+    padding: 15px;
+    margin-bottom: 10px;
+    width: 500px;
+    position: relative;
+    font-size: 14px;
+    background-color: #e3e3e3;
+    left: 1275px;
+    color: rgb(171, 168, 168);
+}
+
+.border-Message {
+
+    padding: 15px;
+    width: 500px;
+    height: 300px;
+    top: 40px;
+    position: relative;
+    font-size: 14px;
+    background-color: #e3e3e3;
+    left: 1275px;
+    color: rgb(171, 168, 168);
+}
+
+.googleCarte {
+    position: relative;
+    left: 200px;
+    bottom: 500px;
+    width: 450px;
+    height: auto;
+}
+
+.googleIcon {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+
+}
+
+.adresseBdb {
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    bottom: 450px;
+    left: 100px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.googleIcon {
+    position: relative;
+    width: 100px;
+    height: auto;
+}
+
+.texte-environnement {
+    font-family: 'Inter', sans-serif;
+    font-weight: 580;
+    position: relative;
+    left: 200px;
+    top: 200px
+}
+
+.icon-Etoile {
+    position: relative;
+    width: 150px;
+    height: auto;
+    left: 600px;
+    bottom: 400px;
+
+}
+
+.icon-main {
+    position: relative;
+    width: 150px;
+    height: auto;
+    left: 970px;
+    bottom: 400px;
+
+}
+
+.icon-arbre {
+    position: relative;
+    width: 200px;
+    height: auto;
+    right: 320px;
+    bottom: 150px;
+
+}
+
+.icon-nuage {
+
+    position: relative;
+
+    width: 200px;
+    height: auto;
+    left: 50px;
+    top: 100px;
+}
+
+.icon-eau {
+    position: relative;
+    width: 100px;
+    height: auto;
+    right: 655px;
+    top: 100px;
+    
+}
+
+.bordure-Jaune {
+    position: relative;
+    left: 1000px;
+    bottom: 350px;
+    border: 100px solid rgb(255, 217, 20);
+    /* Bordure jaune */
+    font-family: 'Inter', sans-serif; /*Changer la police*/
+    font-weight: 580; /*epaisseur des mots*/
+    padding: 20px;
+    width: 600px;
+    height: 200px;
+    background-color: rgb(255, 217, 20);
+    /* Couleur de fond jaune */
+
+}
+
+.icon-recyclage {
+    position: relative;
+    width: 120px;
+    height: auto;
+    bottom: 850px;
+    left: 1140px;
+
+}
+
+.icon-plante {
+    position: relative;
+    width: 150px;
+    height: auto;
+    bottom: 750px;
+    left: 1565px;
+}
+
+.icon-chandail {
+    position: relative;
+    width: 150px;
+    height: auto;
+    bottom: 520px;
+    left: 870px;
+}
+
+.icon-terre {
+    position: relative;
+    width: 200px;
+    height: auto;
+    bottom: 521px;
+    left: 1200px;
+}
+
+.border-fabrication {
+    font-family: 'Inter', sans-serif; 
+    position: relative;
+    font-weight: 550; 
+    padding: 15px;
+    bottom: 900px;
+    width: 280px;
+    height: auto;
+    font-size: 14px;
+    background-color: #ffffff;
+    left: 1400px;
+}
+
+.border-Matiere {
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    font-weight: 550;
+    padding: 15px;
+    width: 350px;
+    height: auto;
+    bottom: 800px;
+    font-size: 14px;
+    background-color: #ffffff;
+    left: 1400px;
+}
+
+.texte-apropos {
+    font-family: 'Inria Serif', serif;
+    font-weight: 500;
+    position: relative;
+    left: 730px;
+    top: 110px;
+    font-size: 1.5em;
+}
+
+.icon-groupe {
+    position: relative;
+    width: 520px;
+    height: auto;
+    bottom: 600px;
+    left: 100px;
+    border-radius: 50px;
+}
+
+.icon-fleur {
+    position: relative;
+    width: 500px;
+    height: auto;
+    bottom: 575px;
+    left: 850px;
+}
+
+.video-apropos {
+    position: relative;
+    bottom: 1200px;
+    left: 1270px;
+}
+
+.video-contact {
+    position: relative;
+    left: 750px;
+    bottom: 990px;
+}
+
+.audio {
+    position: relative;
+    left: 800px;
+    bottom: 950px;
+}
+
+.pageApropos {
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+}
+
+.pageFabrication {
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    bottom: 50px;
+    right: 170px;
+}
+
+.pageVetement {
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    bottom: 120px;
+    right: 60px;
+}
+
+.Image1 {
+    position: relative;
+    width: 950px;
+    height: 600px;
+    left: 460px;
+    top: 0px;
+}
+
+.Image-Acceuil {
+    position: relative;
+    width: 490px;
+    height: 700px;
+    right: 950px;
+    top: 50px;
+}
+
+.Image-Acceuil2 {
+    position: relative;
+    width: 490px;
+    height: auto;
+    left: 1400px;
+    bottom: 650px;
+}
+.produit-table td {
+    text-align: center;
+    padding: 20px;
+
+}
+.chandail1 {
+    position: relative;
+    width: 350px;
+    height: auto;
+
+}
+.casquette {
+    position: relative;
+    width: 250px;
+    height: auto;
+
+}
+.casquette {
+    position: relative;
+    width: 250px;
+    height: auto;
+
+}
+.pantalon{
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
